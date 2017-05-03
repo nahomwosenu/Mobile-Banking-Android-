@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="g4it.finalproject.mobilebanking.MenuActivity">
+
+    <Button
+        android:id="@+id/btnMBanking"
+        android:layout_width="245dp"
+        android:layout_height="129dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="156dp"
+        android:background="@mipmap/ic_launcher"
+        android:text="Mobile Banking"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUSSD"
+        android:layout_width="251dp"
+        android:layout_height="109dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="36dp"
+        android:background="@mipmap/ic_ussd"
+        android:text="USSD Service"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMBanking" />
+</android.support.constraint.ConstraintLayout>

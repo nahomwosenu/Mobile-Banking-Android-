@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MobileBanking</string>
+    <string name="title_activity_main">mobile Banking Login</string>
+    <string name="title_activity_check_balance">CheckBalance</string>
+    <string name="title_activity_fund_deposite">FundDeposite</string>
+    <string name="title_activity_fund_withdraw">FundWithdraw</string>
+    <string name="title_activity_fund_transfer">FundTransfer</string>
+    <string name="title_activity_change_pin">ChangePin</string>
+    <string name="title_activity_launcher">Mobile Banking (G4 IT final project)</string>
+    <string name="accessibility_service_description">USSD Service</string>
+    <string name="uri_scheme">ussd</string>
+    <string name="uri_authority">cd</string>
+    <string name="uri_path">/</string>
+    <string name="uri_param_name">uval</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
