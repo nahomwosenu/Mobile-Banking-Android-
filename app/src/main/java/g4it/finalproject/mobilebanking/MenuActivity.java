@@ -18,7 +18,7 @@ public class MenuActivity extends AppCompatActivity {
         btnUSSD.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View view) {
-                        Intent intent = new Intent(MenuActivity.this, USSDMenu.class);
+                        Intent intent = new Intent(MenuActivity.this, USSDActivity.class);
                         startActivity(intent);
                         finish();
                     }
@@ -57,6 +57,6 @@ public class MenuActivity extends AppCompatActivity {
                     }
                 }
         );
-
+        dialog.show();
     }
 }

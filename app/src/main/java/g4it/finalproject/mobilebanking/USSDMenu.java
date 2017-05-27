@@ -52,4 +52,9 @@ public class USSDMenu extends AppCompatActivity {
         );
 
     }
+    @Override
+    public void onBackPressed(){
+        startActivity(new Intent(this,MenuActivity.class));
+        finish();
+    }
 }

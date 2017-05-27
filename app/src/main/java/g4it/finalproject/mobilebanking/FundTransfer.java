@@ -14,6 +14,7 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -109,6 +110,7 @@ public class FundTransfer extends AppCompatActivity {
                     dialog.show();
                 }
                 else if(s.contains("error")){
+                    Log.d("APP","Returned: "+s);
                     Toast.makeText(FundTransfer.this,s,Toast.LENGTH_LONG).show();
                 }
                 else if(s.contains("true")){

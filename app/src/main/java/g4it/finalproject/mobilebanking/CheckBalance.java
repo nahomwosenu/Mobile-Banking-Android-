@@ -7,6 +7,7 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -82,7 +83,10 @@ public class CheckBalance extends AppCompatActivity {
                   double amount=Double.parseDouble(result[1]);
 
                   view.setText("Your current balance is: "+amount);
-
+                  AlertDialog.Builder dialog=new AlertDialog.Builder(CheckBalance.this);
+                  dialog.setTitle("Balance Report");
+                  dialog.setMessage("Your current balance is: "+s);
+                  dialog.show();
               }
               else view.setText("Your balance couldn't be retrieved please check internet conectivity, \n"+s);
             }

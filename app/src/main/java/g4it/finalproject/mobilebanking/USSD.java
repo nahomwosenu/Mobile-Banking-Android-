@@ -8,7 +8,7 @@ public class USSD {
     static final String OPTION_WITHDRAW="3";
     static final String OPTION_TRANSFER="1";
     static final String OPTION_CHANGE_PIN="5";
-    static final String SERVER="http://10.0.3.2/mobilebanking";
+    static final String SERVER="http://192.168.43.254/mobilebanking";
     static Uri ussdToCallableUri(String ussd) {
         String uriString = "";
         if(!ussd.startsWith("tel:"))
